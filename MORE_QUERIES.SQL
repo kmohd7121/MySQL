@@ -22,7 +22,7 @@ from employee
 LIMIT 5;
 
 -- Find the first and last names of all employees
-SELECT first_name, employee.last_name
+SELECT employee.first_name, employee.last_name
 FROM employee;
 
 -- Find the forename and surnames names of all employees
